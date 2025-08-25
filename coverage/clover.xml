@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1756086464212" clover="3.2.0">
-  <project timestamp="1756086464212" name="All files">
-    <metrics statements="168" coveredstatements="19" conditionals="343" coveredconditionals="2" methods="64" coveredmethods="3" elements="575" coveredelements="24" complexity="0" loc="168" ncloc="168" packages="2" files="4" classes="4"/>
+<coverage generated="1756163587700" clover="3.2.0">
+  <project timestamp="1756163587700" name="All files">
+    <metrics statements="168" coveredstatements="37" conditionals="343" coveredconditionals="9" methods="64" coveredmethods="7" elements="575" coveredelements="53" complexity="0" loc="168" ncloc="168" packages="2" files="4" classes="4"/>
     <package name="Cafetería Nanacao">
-      <metrics statements="43" coveredstatements="19" conditionals="12" coveredconditionals="2" methods="10" coveredmethods="3"/>
+      <metrics statements="43" coveredstatements="37" conditionals="12" coveredconditionals="9" methods="10" coveredmethods="7"/>
       <file name="index.js" path="C:\Users\cazam\OneDrive\Documentos\Desafio Latam\Express\Clase 7\Cafetería Nanacao\index.js">
-        <metrics statements="43" coveredstatements="19" conditionals="12" coveredconditionals="2" methods="10" coveredmethods="3"/>
+        <metrics statements="43" coveredstatements="37" conditionals="12" coveredconditionals="9" methods="10" coveredmethods="7"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
         <line num="4" count="1" type="stmt"/>
@@ -21,31 +21,31 @@
         <line num="21" count="1" type="stmt"/>
         <line num="22" count="3" type="stmt"/>
         <line num="23" count="3" type="stmt"/>
-        <line num="24" count="10" type="stmt"/>
+        <line num="24" count="14" type="stmt"/>
         <line num="25" count="3" type="cond" truecount="2" falsecount="0"/>
         <line num="27" count="1" type="stmt"/>
         <line num="28" count="1" type="stmt"/>
         <line num="32" count="1" type="stmt"/>
-        <line num="33" count="0" type="stmt"/>
-        <line num="34" count="0" type="stmt"/>
-        <line num="35" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="36" count="0" type="stmt"/>
-        <line num="42" count="0" type="stmt"/>
-        <line num="43" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="44" count="0" type="stmt"/>
-        <line num="45" count="0" type="stmt"/>
+        <line num="33" count="2" type="stmt"/>
+        <line num="34" count="2" type="stmt"/>
+        <line num="35" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="36" count="1" type="stmt"/>
+        <line num="42" count="1" type="stmt"/>
+        <line num="43" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="44" count="1" type="stmt"/>
+        <line num="45" count="1" type="stmt"/>
         <line num="47" count="0" type="stmt"/>
         <line num="53" count="1" type="stmt"/>
-        <line num="54" count="0" type="stmt"/>
-        <line num="55" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="56" count="0" type="stmt"/>
-        <line num="57" count="0" type="stmt"/>
-        <line num="59" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="60" count="0" type="stmt"/>
-        <line num="61" count="0" type="stmt"/>
-        <line num="62" count="0" type="stmt"/>
-        <line num="64" count="0" type="stmt"/>
-        <line num="67" count="0" type="stmt"/>
+        <line num="54" count="3" type="stmt"/>
+        <line num="55" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="56" count="2" type="stmt"/>
+        <line num="57" count="5" type="stmt"/>
+        <line num="59" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="60" count="1" type="stmt"/>
+        <line num="61" count="1" type="stmt"/>
+        <line num="62" count="1" type="stmt"/>
+        <line num="64" count="1" type="stmt"/>
+        <line num="67" count="1" type="stmt"/>
         <line num="70" count="1" type="stmt"/>
         <line num="71" count="0" type="stmt"/>
         <line num="74" count="1" type="stmt"/>

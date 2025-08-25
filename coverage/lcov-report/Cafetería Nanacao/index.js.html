@@ -23,30 +23,30 @@
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">42.85% </span>
+                <span class="strong">83.67% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>21/49</span>
+                <span class='fraction'>41/49</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">16.66% </span>
+                <span class="strong">75% </span>
                 <span class="quiet">Branches</span>
-                <span class='fraction'>2/12</span>
+                <span class='fraction'>9/12</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">30% </span>
+                <span class="strong">70% </span>
                 <span class="quiet">Functions</span>
-                <span class='fraction'>3/10</span>
+                <span class='fraction'>7/10</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">44.18% </span>
+                <span class="strong">86.04% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>19/43</span>
+                <span class='fraction'>37/43</span>
             </div>
         
             
@@ -61,7 +61,7 @@
             </div>
         </template>
     </div>
-    <div class='status-line low'></div>
+    <div class='status-line medium'></div>
     <pre><table class="coverage">
 <tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
 <a name='L2'></a><a href='#L2'>2</a>
@@ -160,7 +160,7 @@
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">3x</span>
 <span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-yes">10x</span>
+<span class="cline-any cline-yes">14x</span>
 <span class="cline-any cline-yes">3x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
@@ -169,19 +169,19 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -190,20 +190,20 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">5x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
@@ -242,42 +242,42 @@ app.post("/cafes", (req, res) =&gt; {
     }
 })
 &nbsp;
-app.put("/cafes/:id", <span class="fstat-no" title="function not covered" >(r</span>eq, res) =&gt; {
-    const cafe = <span class="cstat-no" title="statement not covered" >req.body;</span>
-    const { id } = <span class="cstat-no" title="statement not covered" >req.params;</span>
-<span class="cstat-no" title="statement not covered" >    if (id != cafe.id)</span>
-<span class="cstat-no" title="statement not covered" >        return res</span>
+app.put("/cafes/:id", (req, res) =&gt; {
+    const cafe = req.body;
+    const { id } = req.params;
+    if (id != cafe.id)
+        return res
             .status(400)
             .send({
                 message: "El id del parámetro no coincide con el id del café recibido",
             });
 &nbsp;
-    const cafeIndexFound = <span class="cstat-no" title="statement not covered" >cafes.findIndex(<span class="fstat-no" title="function not covered" >(p</span>) =&gt; <span class="cstat-no" title="statement not covered" >p.id == id)</span>;</span>
-<span class="cstat-no" title="statement not covered" >    if (cafeIndexFound &gt;= 0) {</span>
-<span class="cstat-no" title="statement not covered" >        cafes[cafeIndexFound] = cafe;</span>
-<span class="cstat-no" title="statement not covered" >        res.send(cafes);</span>
-    } else {
+    const cafeIndexFound = cafes.findIndex((p) =&gt; p.id == id);
+    if (cafeIndexFound &gt;= 0) {
+        cafes[cafeIndexFound] = cafe;
+        res.send(cafes);
+    } else <span class="missing-if-branch" title="else path not taken" >E</span>{
 <span class="cstat-no" title="statement not covered" >        res</span>
             .status(404)
             .send({ message: "No se encontró ningún café con ese id" });
     }
 });
 &nbsp;
-app.delete("/cafes/:id", <span class="fstat-no" title="function not covered" >(r</span>eq, res) =&gt; {
-    const jwt = <span class="cstat-no" title="statement not covered" >req.header("Authorization")</span>
-<span class="cstat-no" title="statement not covered" >    if (jwt) {</span>
-        const { id } = <span class="cstat-no" title="statement not covered" >req.params</span>
-        const cafeIndexFound = <span class="cstat-no" title="statement not covered" >cafes.findIndex(<span class="fstat-no" title="function not covered" >c </span>=&gt; <span class="cstat-no" title="statement not covered" >c.id == id)</span></span>
+app.delete("/cafes/:id", (req, res) =&gt; {
+    const jwt = req.header("Authorization")
+    if (jwt) {
+        const { id } = req.params
+        const cafeIndexFound = cafes.findIndex(c =&gt; c.id == id)
 &nbsp;
-<span class="cstat-no" title="statement not covered" >        if (cafeIndexFound &gt;= 0) {</span>
-<span class="cstat-no" title="statement not covered" >            cafes.splice(cafeIndexFound, 1)</span>
-<span class="cstat-no" title="statement not covered" >            console.log(cafeIndexFound, cafes)</span>
-<span class="cstat-no" title="statement not covered" >            res.send(cafes)</span>
+        if (cafeIndexFound &gt;= 0) {
+            cafes.splice(cafeIndexFound, 1)
+            console.log(cafeIndexFound, cafes)
+            res.send(cafes)
         } else {
-<span class="cstat-no" title="statement not covered" >            res.status(404).send({ message: "No se encontró ningún cafe con ese id" })</span>
+            res.status(404).send({ message: "No se encontró ningún cafe con ese id" })
         }
 &nbsp;
-    } else <span class="cstat-no" title="statement not covered" >res.status(400).send({ message: "No recibió ningún token en las cabeceras" })</span>
+    } else res.status(400).send({ message: "No recibió ningún token en las cabeceras" })
 })
 &nbsp;
 app.use("*", <span class="fstat-no" title="function not covered" >(r</span>eq, res) =&gt; {
@@ -292,7 +292,7 @@ module.exports = app
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
-                at 2025-08-25T01:47:44.166Z
+                at 2025-08-25T23:13:07.658Z
             </div>
         <script src="../prettify.js"></script>
         <script>
